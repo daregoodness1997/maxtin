@@ -98,6 +98,11 @@ p {
   font-family: "Helveticaregular", "Inter", sans-serif;
 }
 
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
 .hero-box {
   display: flex;
   gap: 6rem;
@@ -121,7 +126,7 @@ label {
 }
 
 .form-control input {
-  padding: 1.4rem;
+  padding: 1.5rem;
   background-color: #0a172e;
   color: #20d5fe;
   outline: 0;
@@ -132,10 +137,73 @@ label {
 }
 
 .form-control button {
-  padding: 1.4rem;
+  padding: 1.5rem;
   color: #fff;
   background-color: #20d5fe;
   border: 0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+.cloud-image {
+  position: absolute;
+  top: -3.2rem;
+  right: 0;
+  animation-name: scale;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.rocket-image {
+  position: relative;
+  z-index: 10;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.center {
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  background-color: #0a172e;
+  padding: 4rem 0;
+}
+
+footer .small {
+  font-size: 0.9rem;
+  font-family: "Helveticaregular", "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 4px;
+}
+
+/* Animations */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.03);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
 }
