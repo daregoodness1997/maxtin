@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Helveticabold";
+  src: url("/dist/fonts/helvetica/helvetica-bold-webfont.woff2") format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helveticabold_oblique";
+  src: url("/dist/fonts/helvetica/helvetica-boldoblique-webfont.woff2")
+      format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-boldoblique-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helveticacompressed";
+  src: url("/dist/fonts/helvetica/helvetica-compressed-5871d14b6903a-webfont.woff2")
+      format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-compressed-5871d14b6903a-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helveticaoblique";
+  src: url("/dist/fonts/helvetica/helvetica-oblique-webfont.woff2")
+      format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-oblique-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helveticarounded_bold";
+  src: url("/dist/fonts/helvetica/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
+      format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helveticaregular";
+  src: url("/dist/fonts/helvetica/helvetica-webfont.woff2") format("woff2"),
+    url("/dist/fonts/helvetica/helvetica-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #152440;
+  color: #fff;
+  font-family: "Helveticaregular", "Inter", sans-serif;
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 100%;
+  font-family: "Helveticabold";
+}
+p {
+  font-size: 20px;
+  line-height: 120%;
+  font-family: "Helveticaregular", "Inter", sans-serif;
+}
+
+.sub-heading {
+  color: #ddd;
+  margin: 2rem 0 4rem;
+  width: 75%;
+  font-family: "Helveticaregular", "Inter", sans-serif;
+}
+
+.hero-box {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  margin: 4.5rem 0;
+}
+
+.content {
+  width: 50%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1rem 0;
+}
+
+.form-control-box {
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.form-control input {
+  padding: 1.4rem;
+  background-color: #0a172e;
+  color: #20d5fe;
+  outline: 0;
+  border: 0;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  width: 60%;
+}
+
+.form-control button {
+  padding: 1.4rem;
+  color: #fff;
+  background-color: #20d5fe;
+  border: 0;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
