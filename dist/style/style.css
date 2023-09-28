@@ -203,6 +203,39 @@ footer .address-box {
   width: 50%;
 }
 
+/* Media Query */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+  .hero-box {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 2.5rem 0;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  .sub-heading {
+    width: 100%;
+  }
+  .form-control-box {
+    width: 75vw;
+  }
+  .illustrations {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  footer .content {
+    flex-direction: column;
+  }
+}
+
 /* Animations */
 
 @keyframes spin {
