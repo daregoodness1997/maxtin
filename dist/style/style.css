@@ -221,6 +221,7 @@ footer .address-box {
   }
   .sub-heading {
     width: 100%;
+    text-align: left;
   }
   .form-control-box {
     width: 75vw;
@@ -261,4 +262,25 @@ footer .address-box {
   100% {
     transform: scale(1.1);
   }
+}
+
+/* Slider  */
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #20d5fe;
+}
+
+.text-slide {
+  width: 50%;
+  display: flex;
+}
+
+.carousel-container p {
+  min-width: 50%;
+  padding: 2rem 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
